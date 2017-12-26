@@ -3,7 +3,7 @@
 ## composer.json
     "require": {
         ...
-        "creof/doctrine2-spatial": "dev-master"
+        "vaderlab/doctrine2-spatial": "dev-master"
 
 You will also have to change the version requirement of doctrine to at least 2.1:
 
@@ -21,6 +21,7 @@ doctrine:
             point:      CrEOF\Spatial\DBAL\Types\Geometry\PointType
             polygon:    CrEOF\Spatial\DBAL\Types\Geometry\PolygonType
             linestring: CrEOF\Spatial\DBAL\Types\Geometry\LineStringType
+            circle:     CrEOF\Spatial\DBAL\Types\Geometry\Circle
 
     orm:
         dql:
