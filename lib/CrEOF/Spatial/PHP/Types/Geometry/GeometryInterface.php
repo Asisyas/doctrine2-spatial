@@ -33,6 +33,7 @@ interface GeometryInterface
 {
     const GEOMETRY           = 'Geometry';
     const POINT              = 'Point';
+    const CIRCLE             = 'Circle';
     const LINESTRING         = 'LineString';
     const POLYGON            = 'Polygon';
     const MULTIPOINT         = 'MultiPoint';
